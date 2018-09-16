@@ -749,3 +749,9 @@ header .intro-text {
 		background-position: 0 70%;
 	}
 }
+
+/* update p skills */
+#skills .skill p {
+	margin: 0;
+	padding: 1px;
+}
