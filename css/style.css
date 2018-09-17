@@ -755,3 +755,30 @@ header .intro-text {
 	margin: 0;
 	padding: 1px;
 }
+
+
+/* Hobbies Section */
+#hobbies {
+	padding: 100px 0;
+		text-align: center;
+
+}
+
+#hobbies p {
+}
+
+#hobbies i.fa {
+	font-size: 60px;
+	padding: 4px 5px;
+	color: #fff;
+	transition: all 0.5s;
+}
+
+#hobbies i.fa {
+	color: #000;
+	margin-bottom: 10px;
+}
+
+#hobbies i.fa:hover {
+	color: #121d1f;
+}

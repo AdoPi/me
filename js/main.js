@@ -12,6 +12,8 @@ function main() {
             $('html,body').animate({
               scrollTop: target.offset().top - 40
             }, 900);
+            // collapse navbar
+            $('.navbar-toggle').click();
             return false;
           }
         }
@@ -30,7 +32,7 @@ $('#nav').affix({
 	var index=0;
 	$(document).scroll(function(){
 		var top = $('#skills').height()-$(window).scrollTop();
-		console.log(top)
+	//	console.log(top)
 		if(top<-300){
 			if(index==0){	
 			
