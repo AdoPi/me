@@ -13,7 +13,8 @@ function main() {
               scrollTop: target.offset().top - 40
             }, 900);
             // collapse navbar
-            $('.navbar-toggle').click();
+            if ($(this).parent().get(0).tagName == 'LI')
+              $('.navbar-toggle').click();
             return false;
           }
         }
